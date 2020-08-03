@@ -71,6 +71,7 @@ class Header extends Component {
             <Typography className={title} color="inherit" variant="h6">
               <Link route="/">
                 {shop ? <ShopLogo shopName={shop.name} /> : "Example Storefront"}
+                <p>Prueba JC</p>
               </Link>
             </Typography>
 
